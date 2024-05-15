@@ -1,0 +1,58 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore .env files containing sensitive information
+.env*
+
+# Ignore log files and build artifacts
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+build/
+dist/
+coverage/
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore dependency lock files
+package-lock.json
+yarn.lock
+
+# Ignore temporary files
+*.tmp
+*.tmp.*
+*.bak
+*.swp
+
+# Ignore configuration files that may contain sensitive information
+*.config
+
+# Ignore compiled binary files
+*.dll
+*.exe
+
+# Ignore image thumbnails
+*.thumb
+*.thumb.db
+
+
+# Ignore Terraform metadata
+.terraform/
+
+# Ignore CDK metadata
+cdk.out/
