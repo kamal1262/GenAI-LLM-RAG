@@ -3,6 +3,7 @@ node_modules/
 
 # Ignore .env files containing sensitive information
 .env*
+.DS_Store
 
 # Ignore log files and build artifacts
 *.log
@@ -56,3 +57,9 @@ yarn.lock
 
 # Ignore CDK metadata
 cdk.out/
+
+# Ignore Python built files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
